@@ -72,6 +72,50 @@ input, select, textarea {
 	appearance: none;
 }
 
+.beatmap {
+    text-align: center;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link {
+    text-align: center;
+    padding: 6px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link:visited {
+    text-decoration: none; color: black;
+}
+.subbeatmap{
+    text-align: center;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.lnclasstitle {
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.lnclass {
+  width: 75%;
+  max-width: 800px;
+  minimum-width: 300px !important;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 18px 24px;
+  padding-bottom: 12px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
